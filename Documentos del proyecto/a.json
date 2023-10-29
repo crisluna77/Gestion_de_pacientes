@@ -1,0 +1,17 @@
+{
+    "id": 1,
+    "tipoSangre": "O+",
+    "nombres": "Juan",
+    "apellidos": "Pérez",
+    "dpi": "1234567890123",
+    "email": "juan.perez@example.com",
+    "convenio": "Seguro de salud XYZ",
+    "sexo": "Masculino",
+    "fechaNacimiento": "1990-05-15",
+    "departamento": "Guatemala",
+    "municipio": "Ciudad",
+    "telefono": "123-456-7890",
+    "actividadProfesion": "Ingeniero",
+    "alergias": "Ninguna"
+  }
+  

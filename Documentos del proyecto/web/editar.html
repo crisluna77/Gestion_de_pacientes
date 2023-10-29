@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Editar Paciente</title>
+</head>
+<body>
+    <h1>Editar Paciente</h1>
+    <div id="paciente-info">
+        <!-- Aquí se mostrará la información del paciente -->
+    </div>
+
+    <form id="editarPacienteForm">
+
+
+        <label for="tipoSangre">Tipo de Sangre:</label>
+        <input type="text" id="tipoSangre" name="tipoSangre" required>
+
+        <label for="nombres">Nombres:</label>
+        <input type="text" id="nombres" name="nombres" required>
+
+        <label for="apellidos">Apellidos:</label>
+        <input type="text" id="apellidos" name="apellidos" required>
+
+        <label for="dpi">DPI:</label>
+        <input type="text" id="dpi" name="dpi" required>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="convenio">Convenio:</label>
+        <input type="text" id="convenio" name="convenio">
+
+        <label for="sexo">Sexo:</label>
+        <select id="sexo" name="sexo" required>
+            <option value="Masculino">Masculino</option>
+            <option value="Femenino">Femenino</option>
+            <option value="Otro">Otro</option>
+        </select>
+
+        <label for="fechaNacimiento">Fecha de Nacimiento:</label>
+        <input type="date" id="fechaNacimiento" name="fechaNacimiento" required>
+
+        <label for="departamento">Departamento:</label>
+        <input type="text" id="departamento" name="departamento">
+
+        <label for="municipio">Municipio:</label>
+        <input type="text" id="municipio" name="municipio">
+
+        <label for="telefono">Teléfono:</label>
+        <input type="text" id="telefono" name="telefono">
+
+        <label for="actividadProfesion">Actividad o Profesión:</label>
+        <input type="text" id="actividadProfesion" name="actividadProfesion">
+
+        <label for="alergias">Alergias:</label>
+        <input type="text" id="alergias" name="alergias">
+        
+        <button type="button" id="cargarDatos">Cargar Datos</button>
+        <button type="button" id="guardarCambios">Guardar Cambios</button>
+        <button type="button" id="cancelarEdicion">Cancelar</button>
+    </form>
+
+    <script src="./script/editar.js"></script>
+</body>
+</html>
